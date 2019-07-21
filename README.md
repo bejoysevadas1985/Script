@@ -1,7 +1,7 @@
 https://www.youtube.com/watch?time_continue=2484&v=N0lxfilGfak
 
 
-41:50
+
 
 =====================================================
 
