@@ -1,0 +1,24 @@
+
+To write a program to analysis the avocado data set, and to plot a simple graph  for the average price using JYPETER Notebook.
+
+dataframe : https://www.kaggle.com/neuromusic/avocado-prices/downloads/avocado-prices.zip/1
+
+	
+import pandas as pd 
+df = pd.read_csv("avocado.csv")    \\ to read the data set Avocado and asign the dataset as "df" 
+
+df.head(3)   \\ will show first 3 coloumn of the avocado dataset in a table format.
+
+df["AveragePrice"].head(4)  \\ will display  the data for Averageprice from the data frame  
+
+bejoy_df = df[ df['region'] == "Albany" ] \\ to set a new date frame "bejoy_df" from the existing data frame with region as albany 
+bejoy_df.head(10)
+
+bejoy_df.set_index("Date")  \\ change data frame with index folowing the date
+
+bejoy_df = bejoy_df.set_index("Date") \\ bejoy_df data frame  changed and saved with date as index.
+
+bejoy_df['AveragePrice'].plot()  \\ display the graph to plot the data reprasenting values for AveragePrice
+
+
+ 
